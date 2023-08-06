@@ -31,5 +31,5 @@
             $objVend->redirect('../vendas.php');
         }
     }
-
+    //As vendas não estão carregando os dados no modal
 ?>
