@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="styles.css">
+        <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+
+        <title>Doceria Doce Sabor</title>
+    </head>
+
+    <body>
+
+        <header class="header" id="header">
+            <!-- NAV -->
+            <nav class="nav bd-container">
+                <h1><a href="logotipo.png" class="logo">Doceria Doce Sabor</a></h1>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#home" class="nav__link active-link">Home</a></li>
+                        <li class="nav__item"><a href="#sobre" class="nav__link">Sobre</a></li>
+                        <li class="nav__item"><a href="#cardapio" class="nav__link">Produtos</a></li>
+                        <li class="nav__item"><a href="#delivery" class="nav__link">Delivery</a></li>
+                        <li class="nav__item"><a href="#contato" class="nav__link">Contato</a></li>
+                        <li class="nav__item"><a href="adm.html" class="btn">ADM</a></li>
+                    </ul>
+                </div>
+
+                <!--MENU TOGGLE-->
+                <div class="nav__toggle">
+                    <i class='bx bx-menu-alt-right' id="nav-toggle"></i>
+                </div>
+                <!-- END MENU TOGGLE -->
+            </nav>
+            <!-- END NAV -->
+        </header>
+
+        <!--MAIN-->
+        <main>
+            <!--HOME-->
+            <section class="home" id="home">
+                <div class="home__container bd-container bd-grid">
+                    <div class="home__data">
+                        <h1 class="home__title">Bem vindo a Doceria Doce Sabor</span></h1>
+                        <h2 class="home__subtitle">Venha desbravar nossos deliciosos sabores e ganhar a doçura que faltava no seu dia </h2>
+                    </div>
+                    <img src="img/logobolo.png" alt="instagram" class="home__img">
+                </div>
+            </section>
+            <!-- END HOME -->
+
+            <!-- SOBRE -->
+            <section class="about bg-container section" id="sobre">
+                <h1 class="section-title">Sobre</h1>
+                <div class="about__container bd-container bd-grid">
+                    <div class="about__logotipo">
+                        <div class="logotipo">
+                            <img src="img/logotipo.png" alt="logotipo" class="img__logotipo">
+                        </div>
+                    </div>
+                    <div class="about__data">
+                        <p class="section-text">A Doceria Doce Sabor foi fundada  em 2007, seu cardápio compõe diversos tipos de tortas, bolos, doces e salgados.</p>
+                        <p>Escolha os seus aperitivos e venha se apaixonar por essas delícias.</p>
+                        </p>
+                    </div>
+                </div>
+            </section>
+            <!-- END SOBRE -->
+
+            <!-- CARDÁPIO -->
+            <section class="cardapio section" id="cardapio">
+                <h1 class="section-title">Produtos</h1>
+                <h2 class="section-subtitle">Tortas</h2>
+                <div class="cardapio__container bd-container bd-grid">
+                    <div class="card">
+                        <div class="card__img">
+                            <img src="img/imgtortas/cheesecakefrutas.jpeg" alt="cheesecakefrutas">
+                        </div>
+                        <div class="card__data">
+                            <h3>Cheesecake</h3>
+                            <div class="card__descripition">
+                                <small>Torta base de cream cheese e cobertura de geléia de frutas vermelhas</small>
+                            </div>
+                        </div><br>
+                        <div class="card__preci">
+                            <span>R$ 80,00</span>
+                        </div>
+                        <i class='bx bxs-cart card__cart'></i>
+                    </div>
+
+                    <div class="card">
+                        <div class="card__img">
+                            <img src="img/imgtortas/brigadeiro.jpg" alt="brigadeiro">
+                        </div>
+                        <div class="card__data">
+                            <h3>Torta Brigadeiro</h3>
+                            <div class="card__descripition">
+                                <small>Torta de chocolate recheado com brigadeiro</small>
+                            </div>
+                        </div>
+                        <div class="card__preci">
+                            <span>R$ 75,00</span>
+                        </div>
+                        <i class='bx bxs-cart card__cart'></i>
+                    </div>
+
+                    <div class="card">
+                        <div class="card__img">
+                            <img src="img/imgtortas/tortasertaneja.jpg" alt="tortasertaneja">
+                        </div>
+                        <div class="card__data">
+                            <h3>Torta Sertaneja</h3>
+                            <div class="card__descripition">
+                                <small>Torta de carne com banana da terra</small>
+                            </div>
+                        </div>
+                        <div class="card__preci">
+                            <span>R$ 70,00</span>
+                        </div>
+                        <i class='bx bxs-cart card__cart'></i>
+                    </div>
+
+                    <div class="card">
+                        <div class="card__img">
+                            <img src="img/imgtortas/limão.jpg" alt="tortalimão">
+                        </div>
+                        <div class="card__data">
+                            <h3>Torta de limão</h3>
+                            <div class="card__descripition">
+                                <small>Casquinha assequilhada recheada com creme de limão e cobertura de suspiro </small>
+                            </div>
+                        </div>
+                        <div class="card__preci">
+                            <span>R$ 70,00</span>
+                        </div>
+                        <i class='bx bxs-cart card__cart'></i>
+                    </div>
+                </div>
+
+                <h2 class="section-subtitle">Bolos</h2>
+                <div class="cardapio__container bd-container bd-grid">
+                    <div class="card">
+                        <div class="card__img">
+                            <img src="img/imgtortas/prestigio.jpg" alt="boloprestigio">
+                        </div>
+                        <div class="card__data">
+                            <h3>Bolo Prestígio</h3>
+                            <div class="card__descripition">
+                                <small>Bolo de chocolate recheado com brigadeiro de coco</small>
+                            </div>
+                        </div>
+                        <div class="card__preci">
+                            <span>R$ 80,00</span>
+                        </div>
+                        <i class='bx bxs-cart card__cart'></i>
+                    </div>
+
+                    <div class="card">
+                        <div class="card__img">
+                            <img src="img/imgbolos/trufado.jpg" alt="bolotrufado">
+                        </div>
+                        <div class="card__data">
+                            <h3>Bolo Trufado</h3>
+                            <div class="card__descripition">
+                                <small>Torta de chocolate recheado com trufa de chocolate e pedaços de morangos</small>
+                            </div>
+                        </div>
+                        <div class="card__preci">
+                            <span>R$ 80,00</span>
+                        </div>
+                        <i class='bx bxs-cart card__cart'></i>
+                    </div>
+
+                    <div class="card">
+                        <div class="card__img">
+                            <img src="img/imgbolos/redvelvet.jpg" alt="boloredvelvet">
+                        </div>
+                        <div class="card__data">
+                            <h3>Bolo Red Velvet</h3>
+                            <div class="card__descripition">
+                                <small>torta recheada e coberta com creme à base de cream cheese e leite condensado</small>
+                            </div>
+                        </div>
+                        <div class="card__preci">
+                            <span>R$ 85,00</span>
+                        </div>
+                        <i class='bx bxs-cart card__cart'></i>
+                    </div>
+
+                    <div class="card">
+                        <div class="card__img">
+                            <img src="img/imgbolos/formigueiro.jpg" alt="boloformigueiro">
+                        </div>
+                        <div class="card__data">
+                            <h3>Bolo Formigueiro</h3>
+                            <div class="card__descripition">
+                                <small>Bolo granulado de chocolate</small>
+                            </div>
+                        </div>
+                        <div class="card__preci">
+                            <span>R$ 65,00</span>
+                        </div>
+                        <i class='bx bxs-cart card__cart'></i>
+                    </div>
+                </div>
+
+                <h2 class="section-subtitle">Doces</h2>
+                <div class="cardapio__container bd-container bd-grid">
+                    <div class="card">
+                        <div class="card__img">
+                            <img src="img/imgdoces/brigadeiro.jpg" alt="brigadeiro">
+                        </div>
+                        <div class="card__data">
+                            <h3>Brigadeiro Belga</h3>
+                            <div class="card__descripition">
+                                <small>Brigadeiro de chocolate belga coberto com confeito belga</small>
+                            </div>
+                        </div>
+                        <div class="card__preci">
+                            <span>R$ 4,50</span>
+                        </div>
+                        <i class='bx bxs-cart card__cart'></i>
+                    </div>
+
+                    <div class="card">
+                        <div class="card__img">
+                            <img src="img/imgdoces/casadinho.jpg" alt="casadinho">
+                        </div>
+                        <div class="card__data">
+                            <h3>Casadinho</h3>
+                            <div class="card__descripition">
+                                <small>Brigadeiro preto e branco cobertos com açúcar refinado</small>
+                            </div>
+                        </div>
+                        <div class="card__preci">
+                            <span>R$ 3,50</span>
+                        </div>
+                        <i class='bx bxs-cart card__cart'></i>
+                    </div>
+
+                    <div class="card">
+                        <div class="card__img">
+                            <img src="img/imgdoces/alfajor.png" alt="alfajor">
+                        </div>
+                        <div class="card__data">
+                            <h3>Alfajor</h3>
+                            <div class="card__descripition">
+                                <small>Sequilho caseiro recheado com doce de leite coberto com calda de chocolate</small>
+                            </div>
+                        </div>
+                        <div class="card__preci">
+                            <span>R$ 5,50</span>
+                        </div>
+                        <i class='bx bxs-cart card__cart'></i>
+                    </div>
+
+                    <div class="card">
+                        <div class="card__img">
+                            <img src="img/imgdoces/moranguinho.jpg" alt="moranguinho">
+                        </div>
+                        <div class="card__data">
+                            <h3>Moranguinho</h3>
+                            <div class="card__descripition">
+                                <small>Morango fresco envolvido no brigadeiro</small>
+                            </div>
+                        </div>
+                        <div class="card__preci">
+                            <span>R$ 4,00</span>
+                        </div>
+                        <i class='bx bxs-cart card__cart'></i>
+                    </div>
+                </div>
+
+                <h2 class="section-subtitle">Salgados</h2>
+                <div class="cardapio__container bd-container bd-grid">
+                    <div class="card">
+                        <div class="card__img">
+                            <img src="img/imgsalgados/coxinha.jpg" alt="coxinha">
+                        </div>
+                        <div class="card__data">
+                            <h3>Coxinha</h3>
+                            <div class="card__descripition">
+                                <small>Sabores: Frango ou Carne Seca</small>
+                            </div>
+                        </div>
+                        <div class="card__preci">
+                            <span>R$ 5,50</span>
+                        </div>
+                        <i class='bx bxs-cart card__cart'></i>
+                    </div>
+
+                    <div class="card">
+                        <div class="card__img">
+                            <img src="img/imgsalgados/empada.jpg" alt="empada">
+                        </div>
+                        <div class="card__data">
+                            <h3>Empada</h3>
+                            <div class="card__descripition">
+                                <small>Sabores: Camarão, Frango ou Carne Seca</small>
+                            </div>
+                        </div>
+                        <div class="card__preci">
+                            <span>R$ 5,50</span>
+                        </div>
+                        <i class='bx bxs-cart card__cart'></i>
+                    </div>
+
+                    <div class="card">
+                        <div class="card__img">
+                            <img src="img/imgsalgados/pasteldeforno.jpg" alt="pastel de forno">
+                        </div>
+                        <div class="card__data">
+                            <h3>Pastel de forno</h3>
+                            <div class="card__descripition">
+                                <small>Sabores: Camarão, Frango, Ricota ou Carne Seca</small>
+                            </div>
+                        </div>
+                        <div class="card__preci">
+                            <span>R$ 6,50</span>
+                        </div>
+                        <i class='bx bxs-cart card__cart'></i>
+                    </div>
+
+                    <div class="card">
+                        <div class="card__img">
+                            <img src="img/imgsalgados/camaraoempanado.jpg" alt="camarão empaado">
+                        </div>
+                        <div class="card__data">
+                            <h3>Camarão Empanado</h3>
+                            <div class="card__descripition">
+                                <small>Empanado tradicional</small>
+                            </div>
+                        </div>
+                        <div class="card__preci">
+                            <span>R$ 7,50</span>
+                        </div>
+                        <i class='bx bxs-cart card__cart'></i>
+                    </div>
+                </div>
+            </section>
+            <!-- END CARDÁPIO -->
+
+            <!-- DELIVERY -->
+            <section class="delivery" id="delivery">
+                <div class="delivery__container">
+                    <div class="delivery__data">
+                        <h1 class="section-title">Seu produto delivery</h1>
+                        <h2 class="section-subtitle">Encomende seus pedidos e receba no conforto da sua casa</h2>
+                        <a href="#cardapio" class="btn">FAÇA SUA ENCOMENDA</a>
+                    </div>
+                </div>
+            </section>
+            <!-- END DELIVERY -->
+
+            <!-- CONTATO -->
+            <section class="contato section" id="contato">
+                <h1 class="section-title">Contato</h1>
+                <h2 class="section-subtitle">Estamos a sua disposição</h2>
+                <div class="contato__container bd-container bd-grid">
+                    <div class="contato__form">
+                        <h2 class="contato__title">Fale Conosco</h2>
+                        <form class="form-control">
+                            <label for="name">Nome:</label>
+                            <input type="text" id="name">
+                            <label for="email">E-mail:</label>
+                            <input type="email" id="email">
+                            <label for="mensagem">Deixe seu recado:</label>
+                            <textarea name="mensagem" id="mensagem" cols="30" rows="5"></textarea>
+                            <button class="btn">ENVIE SEU RECADO</button>
+                        </form>
+                    </div>
+                    <img src="img/instagram.png" alt="instagram" class="home__img">
+                </div>
+            </section>
+            <!-- END CONTATO -->
+
+        </main>
+        <!-- END MAIN -->
+
+        <!-- FOOTER -->
+        <footer class="footer section bg-container">
+            <div class="footer__container bd-container" text-aling="center">
+                <div class="addres">
+                    <h3 class="logo">Doce Sabor</h3>
+                    <small class="footer__subtittle">Bahia - Brasil</small>
+                    <small class="footer__subtittle">Salvador</small>
+                    <small class="footer__subtittle">(71) 99988-7766</small>
+                    <small class="footer__subtittle">docesabor@email.com</small>
+                </div>
+            </div>
+            <p>@2022 | from Ariely Paim</p>
+        </footer>
+        <!-- END FOOTER -->
+
+        <script type="text/javascript" src="main.js"></script>
+
+    </body>
+</html>
